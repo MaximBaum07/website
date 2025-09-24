@@ -65,14 +65,30 @@ html {
   pointer-events: none;
 }
 
-.text {
-  margin-top: 10rem;
+.intruduction-text {
+  margin-top: 7rem;
   text-align: center;
   font-size: larger;
 
   p {
     margin: 3rem;
   }
+}
+
+.projects-text {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: larger;
+
+  p {
+    margin: 3rem;
+  }
+}
+
+.beamng-mods-text {
+  margin-top: 8rem;
+  text-align: center;
+  font-size: larger;
 }
 
 .policy {
