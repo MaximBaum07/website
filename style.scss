@@ -65,6 +65,16 @@ html {
   pointer-events: none;
 }
 
+.text {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: larger;
+
+  p {
+    margin: 3rem;
+  }
+}
+
 .intruduction-text {
   margin-top: 7rem;
   text-align: center;
