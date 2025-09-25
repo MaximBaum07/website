@@ -99,17 +99,8 @@ html {
   position: fixed;
 }
 
-// @media only screen and (max-width: 600px) {
-//   .mypage {
-//     text-align: center;
-
-//     .ascii {
-//       font-size: 10;
-//       margin-left: -150;
-//     }
-
-//     .policy {
-//       margin-top: 140;
-//     }
-//   }
-// }
+@media only screen and (max-width: 600px) {
+  .policy {
+    font-size: 11;
+  }
+}
