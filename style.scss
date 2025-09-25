@@ -5,7 +5,7 @@ html {
   color: white;
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     color: FF6600;
   }
 
@@ -30,10 +30,12 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  cursor: pointer;
 }
 
 .top-banner {
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   background: #ff6600;
@@ -42,7 +44,7 @@ html {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
   color: white;
 }
 
@@ -95,7 +97,7 @@ html {
   }
 }
 
-.beamng-mods-text {
+.mod-overview-text {
   margin-top: 8rem;
   text-align: center;
   font-size: larger;
