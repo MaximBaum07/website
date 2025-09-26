@@ -1,1 +1,15 @@
 @import url("/style.scss");
+
+.back-button {
+  margin: 10px;
+
+  button {
+    padding: 5px;
+  }
+}
+
+.under-construction {
+  display: block;
+  margin: auto;
+  width: 40%;
+}

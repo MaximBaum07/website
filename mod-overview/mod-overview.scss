@@ -6,7 +6,42 @@ html {
   }
 }
 
-.mods {
+.back-button {
+  margin: 10px;
+
+  button {
+    padding: 5px;
+  }
+}
+
+.mod-card {
+  background: gray;
+  box-shadow: 0px 0px 20px 2px #626262;
+  transition: transform 0.2s;
   margin: 2rem;
-  font-size: larger;
+  padding: 10px;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.mod-card:hover {
+  transform: scale(103%);
+  cursor: pointer;
+}
+
+.mod-header {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 3px solid darkgray;
+}
+
+.mod-description {
+  margin: 10px;
+  font-size: 15;
+}
+
+.mod-card img {
+  display: none;
 }

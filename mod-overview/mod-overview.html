@@ -1,38 +1,57 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Makl's BeamNG Mods</title>
+    <title>Makl's Mods</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" href="mod-overview.scss" />
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="mod-overview.js" defer></script>
-    <script src="https://kit.fontawesome.com/49afbfd01a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/49afbfd01a.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <div id="particles-js"></div>
-    <div id="banner" class="top-banner">
+    <div class="top-banner">
       <div id="asciiDiv" class="ascii">
         <pre>
  
-                     /\\\\            /\\\\  /\\\\\\\\\\\\\\
-                     \/\\\\\\        /\\\\\\ \/\\\/////////\\\
-                      \/\\\//\\\    /\\\//\\\ \/\\\       \/\\\
-                       \/\\\\///\\\/\\\/ \/\\\ \/\\\\\\\\\\\\\\
-                        \/\\\  \///\\\/   \/\\\ \/\\\/////////\\\
-                         \/\\\    \///     \/\\\ \/\\\       \/\\\
-                          \/\\\             \/\\\ \/\\\       \/\\\
-                           \/\\\             \/\\\ \/\\\\\\\\\\\\\/
-                            \///              \///  \/////////////
+  /\\\\            /\\\\  /\\\\\\\\\\\\\\
+  \/\\\\\\        /\\\\\\ \/\\\/////////\\\
+   \/\\\//\\\    /\\\//\\\ \/\\\       \/\\\
+    \/\\\\///\\\/\\\/ \/\\\ \/\\\\\\\\\\\\\\
+     \/\\\  \///\\\/   \/\\\ \/\\\/////////\\\
+      \/\\\    \///     \/\\\ \/\\\       \/\\\
+       \/\\\             \/\\\ \/\\\       \/\\\
+        \/\\\             \/\\\ \/\\\\\\\\\\\\\/
+         \///              \///  \/////////////
         </pre>
       </div>
       <div class="banner-header">
         <h2>Makl's BeamNG.drive Mods</h2>
       </div>
     </div>
+    <div class="back-button">
+      <button onclick="window.location.href = '/'">
+        <i class="fa-solid fa-arrow-left"></i>
+        back to homepage
+      </button>
+    </div>
     <div class="mods">
-      <a href="/mod/mod.html?mod=Map_Switch_Mod">map switch mod</a>
+      <div
+        class="mod-card"
+        onclick="window.location.href = '/mod/mod.html?mod=Map_Switch_Mod'"
+      >
+        <p class="mod-header">map switch mod</p>
+        <p class="mod-description">
+          adds a map switch for turbo psi to any car in game. (except mods,
+          maybe in the future)
+        </p>
+        <img src="" alt="[mod_image]" />
+      </div>
     </div>
   </body>
 </html>
