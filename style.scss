@@ -111,7 +111,12 @@ html {
 
 @media only screen and (max-width: 600px) {
   .policy {
-    font-size: 11;
+    font-size: 10;
+    left: 0;
+    bottom: 20;
+    width: 100%;
+    text-align: center;
+    // position: relative;
   }
 
   .top-banner {
@@ -131,8 +136,4 @@ html {
   }
 }
 
-@media only screen and (max-height: 800px) {
-  .policy {
-    display: none;
-  }
-}
+@media only screen and ();
