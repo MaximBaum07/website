@@ -50,8 +50,6 @@ html {
 
 .ascii {
   font-size: 1mm;
-  margin-top: -0.2rem;
-  margin-left: -2rem;
   flex: 0 0 auto;
 }
 
@@ -104,7 +102,7 @@ html {
 }
 
 .policy {
-  font-size: 15;
+  font-size: 12;
   text-align: left;
   bottom: 20;
   left: 20;
@@ -114,5 +112,27 @@ html {
 @media only screen and (max-width: 600px) {
   .policy {
     font-size: 11;
+  }
+
+  .top-banner {
+    .ascii {
+      width: 100%;
+
+      pre {
+        display: flex;
+        justify-content: center;
+        margin-left: -15px;
+      }
+    }
+
+    .banner-header {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .policy {
+    display: none;
   }
 }
