@@ -45,3 +45,12 @@ html {
 .mod-card img {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .mod-card {
+    margin: 1rem auto;
+    width: 95%;
+    max-width: 300px;
+    padding: 10px;
+  }
+}
